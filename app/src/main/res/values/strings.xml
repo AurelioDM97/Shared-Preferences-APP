@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SharedPreferencesAPP</string>
+    <string name="save">save</string>
+    <string name="inserisci_il_nuovo_id">Inserisci il nuovo ID</string>
+    <string name="insert_id">insert ID</string>
+    <string name="hai_cambiato_id_correttamente">Hai cambiato ID correttamente</string>
+
 </resources>
