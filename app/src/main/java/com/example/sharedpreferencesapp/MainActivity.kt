@@ -25,13 +25,12 @@ class MainActivity : AppCompatActivity() {
         loadId()
 
         button.setOnClickListener {
-            saveId()
-
             val toast = Toast.makeText(this, R.string.hai_cambiato_id_correttamente, Toast.LENGTH_SHORT)
             val toastLayout = layoutInflater.inflate(R.layout.custom_toast, null)
             toast.view = toastLayout
             toast.setGravity(Gravity.BOTTOM, 0, 25)
 
+            saveId()
             toast.show()
         }
     }
